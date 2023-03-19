@@ -54,6 +54,7 @@ a {
 .header.fixed {
     position: sticky;
     top: -28px;
+    z-index: 1;
 }
 
 .header .navbar {
@@ -116,6 +117,7 @@ a {
 }
 
 .hero-wrap .media-block .img {
+    display: block;
     width: 470px;
     height: 685px;
     object-fit: cover;
@@ -256,3 +258,4 @@ a {
 .hero-wrap .content-block strong:nth-child(2) {
     margin-left: 28px;
 }
+
