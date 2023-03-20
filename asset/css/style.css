@@ -315,3 +315,77 @@ a {
     color: #fff;
     cursor: pointer;
 }
+
+/* popular info courses */
+
+.popular .list {
+    display: flex;
+    gap: 30px;
+    margin: 55px 0 200px;
+}
+
+.popular .list .item {
+    width: 448px;
+    /* box-shadow: 0px 18px 36px rgba(0, 0, 0, 0.05); */
+    border: 1px solid #e2dfda;
+    border-radius: 12px;
+}
+
+.popular .list .item:hover {
+    background: #ffffff;
+    box-shadow: 0px 18px 36px rgba(0, 0, 0, 0.05);
+}
+
+.popular .list .img {
+    width: 370px;
+    height: 278px;
+    object-fit: cover;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.popular .list .body {
+    display: flex;
+    align-items: center;
+    margin: 16px 22px 0 22px;
+}
+
+.popular .list .title {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #171100;
+}
+
+.popular .list .icon {
+    margin-left: auto;
+}
+
+.popular .list .number {
+    margin-left: 6px;
+}
+
+.popular .list .desc {
+    margin: 6px 22px 0 22px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #5f5b53;
+}
+
+.popular .list .book-now {
+    display: flex;
+    align-items: center;
+    margin: 12px 22px 22px;
+}
+
+.popular .list .price {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #171100;
+}
+
+.popular .list .btn {
+    margin-left: auto;
+    background: #ffb900;
+}
