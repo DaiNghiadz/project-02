@@ -410,8 +410,15 @@ a {
     padding: 96px 0;
 }
 
+.feedback .feedback-list {
+    display: flex;
+    overflow: hidden;
+}
+
 .feedback .info {
     display: flex;
+    width: 100%;
+    flex-shrink: 0;
 }
 
 .feedback .student {
@@ -419,8 +426,10 @@ a {
 }
 
 .feedback .student .img {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
     border-radius: 50%;
-    border-style: none;
 }
 
 .feedback .student .name {
@@ -450,10 +459,12 @@ a {
     height: 6px;
     border-radius: 50%;
     background: #634700;
+    cursor: pointer;
 }
 
-.feedback .student .dot:nth-child(2) {
+.feedback .student .dot.active {
     background: #ffb900;
+    cursor: default;
 }
 
 .feedback .desc-feedback {
@@ -469,3 +480,5 @@ a {
     line-height: 1.54;
     color: #ffffff;
 }
+
+/*  */
