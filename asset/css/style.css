@@ -72,7 +72,7 @@ a {
 
 .navbar ul {
     display: flex;
-    margin-left: 490px;
+    margin-left: auto;
 }
 
 .navbar ul a {
@@ -104,7 +104,7 @@ a {
 }
 
 .navbar .action {
-    margin-left: auto;
+    margin-left: 49px;
 }
 
 /* hero */
@@ -214,7 +214,6 @@ a {
     min-width: 180px;
     padding: 24px 16px;
     background: var(--primary-color);
-    border-radius: 32px;
 }
 
 .hero-wrap .content-block .cta-group {
@@ -481,4 +480,117 @@ a {
     color: #ffffff;
 }
 
-/*  */
+/* features */
+
+.features {
+    margin-top: 200px;
+}
+
+.features .learn {
+    display: flex;
+}
+
+.features .learn .image {
+    display: flex;
+    width: 48%;
+}
+
+.features .learn .img {
+    width: 270px;
+    height: 404px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.features .learn .img:nth-child(1) {
+    margin-top: 34px;
+}
+
+.features .learn .img:nth-child(2) {
+    margin-left: 30px;
+}
+
+.features .learn .info {
+    width: 52%;
+    margin-top: 58px;
+    margin-left: 130px;
+}
+
+.features .info .title {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+.features .info .desc {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #5f5b53;
+}
+
+.features .info .btn {
+    margin-top: 32px;
+    min-width: 137px;
+    padding: 15px 16px;
+}
+
+.features .info .btn:hover {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* features-2nd */
+
+.features-2nd {
+    margin-top: 200px;
+}
+
+.features-2nd .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-2nd .body .info {
+    margin-top: 71px;
+    width: 48%;
+}
+
+.features-2nd .info .title {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+.features-2nd .info .desc {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #5f5b53;
+}
+
+.features-2nd .info .btn {
+    margin-top: 32px;
+    min-width: 137px;
+    padding: 15px 16px;
+}
+
+.features-2nd .info .images {
+    width: 52px;
+    margin-left: 130px;
+}
+
+.features-2nd .body .img {
+    width: 470px;
+    height: 440px;
+    object-fit: cover;
+    border-radius: 20px;
+}
