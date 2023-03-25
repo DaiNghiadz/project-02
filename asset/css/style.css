@@ -124,7 +124,6 @@ a {
 }
 
 .hero-wrap .media-block .img {
-    display: block;
     width: 470px;
     height: 685px;
     object-fit: cover;
@@ -180,7 +179,7 @@ a {
     color: #5f5b53;
 }
 
-.hero-wrap .media-block .title {
+.hero-wrap .media-block .body .title {
     font-weight: 600;
     font-size: 1.8rem;
     line-height: 1.67;
